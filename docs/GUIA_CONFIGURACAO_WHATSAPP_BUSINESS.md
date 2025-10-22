@@ -242,3 +242,4 @@ GET https://seu-dominio.com/api/whatsapp/status
 ---
 
 **💡 Dica**: Comece com o token temporário para testes e configure o permanente apenas quando estiver tudo funcionando!
+

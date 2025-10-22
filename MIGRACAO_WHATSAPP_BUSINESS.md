@@ -242,3 +242,4 @@ A migração para WhatsApp Business API oferece:
 - ✅ **Melhor experiência** para o usuário final
 
 O sistema está pronto para uso em produção com a nova integração!
+

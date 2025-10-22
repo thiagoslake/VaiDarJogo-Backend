@@ -58,3 +58,4 @@ async function exibirQRSimples() {
 
 // Executar
 exibirQRSimples().catch(console.error);
+

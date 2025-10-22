@@ -229,3 +229,4 @@ Para medir o sucesso da nova mensagem, monitore:
 - **Lembretes**: Mensagens de follow-up para não respondentes
 - **Confirmação de Resposta**: Mensagem de confirmação após resposta
 - **Estatísticas**: Resumo de confirmações para organizadores
+
