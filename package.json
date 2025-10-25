@@ -15,6 +15,7 @@
     "diagnostico": "node scripts/diagnostico.js",
     "verificar-config": "node scripts/verificar-configuracoes.js",
     "verificar-railway": "node scripts/verificar-config-railway.js",
+    "test-railway-env": "node scripts/test-railway-env.js",
     "verificar-jogo": "node scripts/verificar-jogo-config.js",
     "envio-manual": "node scripts/envio-manual.js",
     "teste-whatsapp": "node scripts/teste-whatsapp.js"
