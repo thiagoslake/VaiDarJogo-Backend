@@ -1,5 +1,5 @@
-# Use Node.js 18 LTS
-FROM node:18-alpine
+# Use Node.js 20 LTS
+FROM node:20-alpine
 
 # Definir diretório de trabalho
 WORKDIR /app
@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Instalar dependências
-RUN npm ci --only=production
+RUN npm ci --omit=dev
 
 # Copiar código fonte
 COPY . .
@@ -33,6 +33,7 @@ HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
 
 # Comando para iniciar a aplicação
 CMD ["npm", "start"]
+
 
 
 
