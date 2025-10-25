@@ -116,3 +116,4 @@ if (require.main === module) {
 }
 
 module.exports = { checkEnvironmentVariables, REQUIRED_VARS, OPTIONAL_VARS };
+

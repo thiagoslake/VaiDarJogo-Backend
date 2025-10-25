@@ -126,3 +126,4 @@ v18.0
 - ⚠️ **SUPABASE_SERVICE_ROLE_KEY**: Precisa obter
 - ⚠️ **WhatsApp**: Precisa configurar
 - ✅ **Servidor**: Pronto
+
