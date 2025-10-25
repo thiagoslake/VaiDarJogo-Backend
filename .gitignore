@@ -10,6 +10,7 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+railway.env
 
 # Logs
 logs/
@@ -139,3 +140,9 @@ docs/_build/
 # Local development files
 local/
 dev/
+
+# amplify
+node_modules
+.amplify
+amplify_outputs*
+amplifyconfiguration*
