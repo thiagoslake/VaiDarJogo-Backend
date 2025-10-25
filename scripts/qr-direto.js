@@ -44,3 +44,5 @@ function exibirQRDireto() {
 // Executar
 exibirQRDireto();
 
+
+

@@ -64,3 +64,5 @@ WHATSAPP_API_VERSION=v18.0
 
 **💡 Dica**: Você está quase lá! Só falta o webhook token e a configuração do webhook.
 
+
+

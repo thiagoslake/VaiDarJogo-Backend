@@ -230,3 +230,5 @@ Para medir o sucesso da nova mensagem, monitore:
 - **Confirmação de Resposta**: Mensagem de confirmação após resposta
 - **Estatísticas**: Resumo de confirmações para organizadores
 
+
+

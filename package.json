@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node src/server.js",
     "start:simple": "node src/server-simple.js",
+    "start:minimal": "node src/server-minimal.js",
     "dev": "nodemon src/server.js",
     "start:check": "node scripts/iniciar-backend.js",
     "test": "jest",

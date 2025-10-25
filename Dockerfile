@@ -31,8 +31,8 @@ EXPOSE 3000
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
   CMD node -e "require('http').get('http://localhost:3000/health', (res) => { process.exit(res.statusCode === 200 ? 0 : 1) })"
 
-# Comando para iniciar a aplicação simplificada (para debug)
-CMD ["npm", "run", "start:simple"]
+# Comando para iniciar a aplicação mínima (para debug)
+CMD ["npm", "run", "start:minimal"]
 
 
 

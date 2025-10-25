@@ -14,3 +14,5 @@ if (process.env.SUPABASE_SERVICE_ROLE_KEY) {
   console.log('Service Key (primeiros 20 caracteres):', process.env.SUPABASE_SERVICE_ROLE_KEY.substring(0, 20) + '...');
 }
 
+
+
