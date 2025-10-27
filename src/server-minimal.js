@@ -148,6 +148,7 @@ try {
   log('🚀 Iniciando servidor MÍNIMO...');
   log(`📱 Porta: ${port}`);
   log(`🌍 Ambiente: ${process.env.NODE_ENV || 'development'}`);
+  log(`🏠 Host: ${process.env.HOST || '0.0.0.0'}`);
   
   // Verificar variáveis de ambiente
   log('\n🔍 Verificando variáveis de ambiente:');
@@ -155,11 +156,12 @@ try {
   log(`SUPABASE_ANON_KEY: ${process.env.SUPABASE_ANON_KEY ? '✅ Configurada' : '❌ NÃO CONFIGURADA'}`);
   log(`SUPABASE_SERVICE_ROLE_KEY: ${process.env.SUPABASE_SERVICE_ROLE_KEY ? '✅ Configurada' : '❌ NÃO CONFIGURADA'}`);
 
-  server.listen(port, () => {
+  server.listen(port, '0.0.0.0', () => {
     log(`✅ Servidor MÍNIMO rodando na porta ${port}`);
     log(`🔗 Health check: http://localhost:${port}/health`);
     log(`📊 Info: http://localhost:${port}/info`);
     log(`🧪 Test env: http://localhost:${port}/test-env`);
+    log(`🌐 Acessível externamente em: http://0.0.0.0:${port}`);
   });
 
   // Tratar erros
