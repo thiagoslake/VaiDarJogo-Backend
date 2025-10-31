@@ -245,3 +245,4 @@ GET https://seu-dominio.com/api/whatsapp/status
 
 
 
+

@@ -58,3 +58,4 @@ DEFAULT_TIMEZONE=America/Sao_Paulo
 
 ---
 **⏰ Tempo estimado: 2-3 minutos para configurar**
+

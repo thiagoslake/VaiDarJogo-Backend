@@ -250,3 +250,4 @@ Flutter exibe: ✅ João Silva confirmado
 **💡 Dica**: Use o endpoint `/api/whatsapp/status` para verificar se tudo está configurado corretamente antes de começar a enviar mensagens!
 
 
+

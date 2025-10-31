@@ -97,3 +97,4 @@ async function testRailwayEndpoints() {
 
 // Executar teste
 testRailwayEndpoints().catch(console.error);
+

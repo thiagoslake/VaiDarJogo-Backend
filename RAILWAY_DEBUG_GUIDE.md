@@ -91,3 +91,4 @@ mv Dockerfile.original Dockerfile
 
 ---
 **⏰ Tempo estimado: 5-10 minutos para debug completo**
+

@@ -112,3 +112,4 @@ GET https://seu-projeto.railway.app/test-env
 
 ---
 **🎯 O servidor simplificado deve funcionar e mostrar exatamente o que está faltando!**
+

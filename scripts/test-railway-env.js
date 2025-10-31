@@ -92,3 +92,4 @@ console.log('\n📚 Documentação:');
 console.log('- Correção rápida: RAILWAY_QUICK_FIX.md');
 console.log('- Guia completo: RAILWAY_DEPLOY_GUIDE.md');
 console.log('- Variáveis prontas: RAILWAY_VARIABLES_READY.md');
+

@@ -61,3 +61,4 @@ exibirQRSimples().catch(console.error);
 
 
 
+
